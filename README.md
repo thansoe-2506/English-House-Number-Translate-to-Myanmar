@@ -1,6 +1,16 @@
 # House Number Translator
 
-This program is designed to translate house numbers, primarily used in Myanmar, from English to Myanmar. It was developed to streamline the translation process for large volumes of POI (Point of Interest) data, typically encountered in projects such as Grab Map Operations.
+This Python script translates English alphabets and numbers into their corresponding Myanmar Unicode characters. It reads input from a CSV file (english_abc.csv), processes each character using predefined mappings, and writes the translated output to a new file (myanmar_abc).
+
+Key Features:
+
+Translates English letters (A-Z) and numbers (0-9) into Myanmar Unicode.
+
+Handles special characters and maintains their original form.
+
+Reads input from a CSV file and writes output to a UTF-8 encoded file.
+
+Ideal for applications requiring automated English-to-Myanmar text conversion, such as localization or data processing tasks.
 
 ## Purpose
 The House Number Translator offers a time-saving solution for address translation tasks, particularly beneficial for managing and maintaining extensive POI datasets. By automating the translation process, it enhances efficiency and accuracy in address localization efforts.
